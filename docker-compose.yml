@@ -1,0 +1,10 @@
+version: "3.3"
+
+services:
+  web:
+    image: adoniss1/flask-web-app:lastest
+    container_name: flask_app
+    ports:
+      - "5000:5000"
+    restart: always
+
